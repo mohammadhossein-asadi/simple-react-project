@@ -5,7 +5,7 @@ import classes from "../layout/MainNavigation.module.css";
 function MainNavigation() {
   return (
     <header className={classes.header}>
-      <div>React Meetups</div>
+      <div className={classes.logo}>React Meetups</div>
       <nav>
         <ul>
           <li>
